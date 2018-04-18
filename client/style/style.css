@@ -1,0 +1,16 @@
+.collection-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.material-icons {
+  cursor: pointer;
+}
+
+input.input-back {
+  background-color: #fcfdff;
+  padding-left: 6px;
+  border-radius: 5px;
+  border: 1px solid #969696;
+  font-size: '1.3em';
+}

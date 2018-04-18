@@ -44,11 +44,8 @@ class SongCreate extends Component {
           <label>Song Title:</label>
           <input
             type="text"
-            placeholder="name your song"
-            style={{
-              backgroundColor: '#F4F6F6',
-              paddingLeft: '5px'
-            }}
+            className="input-back"
+            placeholder="Give your song a name"
             value={title}
             onChange={event => this.handleChange(event)}
           />
