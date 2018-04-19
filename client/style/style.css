@@ -5,6 +5,7 @@
 
 .material-icons {
   cursor: pointer;
+  margin-right: 5px;
 }
 
 input.input-back {
@@ -13,4 +14,9 @@ input.input-back {
   border-radius: 5px;
   border: 1px solid #969696;
   font-size: '1.3em';
+}
+
+.vote-box {
+  display: flex;
+  align-items: center;
 }
